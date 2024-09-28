@@ -482,7 +482,7 @@ PRODUCT_COPY_FILES += \
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-blaze
+    $(LOCAL_PATH)/overlay-yaap
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
@@ -572,7 +572,7 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/google/interfaces \
     hardware/google/pixel \
-    hardware/blaze/interfaces/power-libperfmgr \
+    hardware/yaap/interfaces/power-libperfmgr \
     hardware/qcom-caf/common/libqti-perfd-client \
     hardware/xiaomi
 
